@@ -1,0 +1,882 @@
+DEBUG:root:2017-07-28 17:59:29
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:8
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:82
+DEBUG:root:2017-07-28 18:38:15
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:10
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:137
+DEBUG:root:2017-07-28 19:15:20
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:9
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:291
+DEBUG:root:2017-07-28 19:58:24
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:8
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:272
+DEBUG:root:2017-07-28 20:41:16
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:9
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:228
+DEBUG:root:2017-07-28 21:16:21
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:4
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:68
+DEBUG:root:2017-07-28 21:48:42
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:4
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==['29527']
+DEBUG:root:sleeping for apply:8
+DEBUG:root:Start artical Request!{'rssid': '29527'}
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /official/apply HTTP/1.1" 200 25
+WARNING:root:apply artical===asciib'{"id":8845,"result":true}'
+WARNING:root:apply artical==={"id": 8845, "result": true}
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/news HTTP/1.1" 200 None
+WARNING:root:new list==[]
+DEBUG:root:sleeping for close:93
+DEBUG:root:2017-07-28 22:24:44
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:5
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:214
+DEBUG:root:2017-07-28 23:03:49
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:5
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:238
+DEBUG:root:2017-07-28 23:41:51
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:6
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:101
+DEBUG:root:2017-07-29 00:20:47
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:268
+DEBUG:root:2017-07-29 01:02:43
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:72
+DEBUG:root:2017-07-29 01:42:55
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:197
+DEBUG:root:2017-07-29 02:17:50
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:149
+DEBUG:root:2017-07-29 02:57:35
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:276
+DEBUG:root:2017-07-29 03:33:59
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:102
+DEBUG:root:2017-07-29 04:13:44
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:163
+DEBUG:root:2017-07-29 04:46:32
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:148
+DEBUG:root:2017-07-29 05:26:36
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:149
+DEBUG:root:2017-07-29 06:00:07
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:128
+DEBUG:root:2017-07-29 06:39:47
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:60
+DEBUG:root:2017-07-29 07:16:44
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:242
+DEBUG:root:2017-07-29 07:53:00
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:244
+DEBUG:root:2017-07-29 08:31:16
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:10
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==['8847']
+DEBUG:root:sleeping for apply:11
+DEBUG:root:Start Review Request!{'id': '8847'}
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /official/review/apply HTTP/1.1" 200 15
+WARNING:root:apply review===ISO-8859-1{"result":true}
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:233
+DEBUG:root:2017-07-29 09:08:42
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:6
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:88
+DEBUG:root:2017-07-29 09:49:19
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:7
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:73
+DEBUG:root:2017-07-29 10:22:32
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:5
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:126
+DEBUG:root:2017-07-29 10:58:34
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:5
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:147
+DEBUG:root:2017-07-29 11:37:47
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:3
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:275
+DEBUG:root:2017-07-29 12:17:57
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:7
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:205
+DEBUG:root:2017-07-29 12:58:29
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:3
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:83
+DEBUG:root:2017-07-29 13:37:57
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:9
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:225
+DEBUG:root:2017-07-29 14:20:03
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:4
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:217
+DEBUG:root:2017-07-29 14:58:17
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:5
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:189
+DEBUG:root:2017-07-29 15:38:27
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:9
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:138
+DEBUG:root:2017-07-29 16:17:13
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:10
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:139
+DEBUG:root:2017-07-29 16:52:05
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:3
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:246
+DEBUG:root:2017-07-29 17:30:29
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:3
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:208
+DEBUG:root:2017-07-29 18:09:05
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:3
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:98
+DEBUG:root:2017-07-29 18:48:09
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:6
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:194
+DEBUG:root:2017-07-29 19:25:35
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:3
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:268
+DEBUG:root:2017-07-29 20:08:25
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:4
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:117
+DEBUG:root:2017-07-29 20:48:41
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:10
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:109
+DEBUG:root:2017-07-29 21:27:32
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:8
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:210
+DEBUG:root:2017-07-29 22:06:12
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:6
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:245
+DEBUG:root:2017-07-29 22:41:42
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:6
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:242
+DEBUG:root:2017-07-29 23:17:12
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:8
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:76
+DEBUG:root:2017-07-29 23:51:07
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:7
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:272
+DEBUG:root:2017-07-30 00:32:16
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:183
+DEBUG:root:2017-07-30 01:08:10
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:218
+DEBUG:root:2017-07-30 01:46:21
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:277
+DEBUG:root:2017-07-30 02:23:00
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:254
+DEBUG:root:2017-07-30 02:59:25
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:141
+DEBUG:root:2017-07-30 03:32:12
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:240
+DEBUG:root:2017-07-30 04:11:35
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:63
+DEBUG:root:2017-07-30 04:44:37
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:280
+DEBUG:root:2017-07-30 05:23:51
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:251
+DEBUG:root:2017-07-30 06:00:03
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:202
+DEBUG:root:2017-07-30 06:42:21
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:150
+DEBUG:root:2017-07-30 07:17:45
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:191
+DEBUG:root:2017-07-30 07:54:09
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:114
+DEBUG:root:2017-07-30 08:35:08
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:4
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:280
+DEBUG:root:2017-07-30 09:12:58
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:5
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:170
+DEBUG:root:2017-07-30 09:48:56
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:6
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:295
+DEBUG:root:2017-07-30 10:28:54
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:6
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:146
+DEBUG:root:2017-07-30 11:10:22
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:9
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:119
+DEBUG:root:2017-07-30 11:44:41
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:8
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:192
+DEBUG:root:2017-07-30 12:20:33
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:10
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==['8851']
+DEBUG:root:sleeping for apply:14
+DEBUG:root:Start Review Request!{'id': '8851'}
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /official/review/apply HTTP/1.1" 200 15
+WARNING:root:apply review===ISO-8859-1{"result":true}
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:168
+DEBUG:root:2017-07-30 13:01:22
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:8
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:242
+DEBUG:root:2017-07-30 13:44:13
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:5
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:146
+DEBUG:root:2017-07-30 14:18:28
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:9
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:159
+DEBUG:root:2017-07-30 14:51:48
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:5
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:174
+DEBUG:root:2017-07-30 15:30:12
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:7
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:103
+DEBUG:root:2017-07-30 16:09:18
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:9
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:227
+DEBUG:root:2017-07-30 16:47:38
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:7
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:274
+DEBUG:root:2017-07-30 17:28:58
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:9
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:289
+DEBUG:root:2017-07-30 18:05:01
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:7
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:155
+DEBUG:root:2017-07-30 18:46:42
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:9
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:263
+DEBUG:root:2017-07-30 19:26:25
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:10
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:152
+DEBUG:root:2017-07-30 20:03:05
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:10
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:183
+DEBUG:root:2017-07-30 20:39:43
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:7
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:287
+DEBUG:root:2017-07-30 21:23:52
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:9
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:108
+DEBUG:root:2017-07-30 21:57:18
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:4
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:121
+DEBUG:root:2017-07-30 22:29:36
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:7
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:69
+DEBUG:root:2017-07-30 23:03:21
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:10
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:283
+DEBUG:root:2017-07-30 23:46:58
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:3
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==['8786']
+DEBUG:root:sleeping for apply:6
+DEBUG:root:Start Review Request!{'id': '8786'}
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /official/review/apply HTTP/1.1" 200 35
+WARNING:root:apply review===ISO-8859-1{"result":false,"error":"????3???"}
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:287
+DEBUG:root:2017-07-31 00:27:44
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:215
+DEBUG:root:2017-07-31 01:01:53
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:237
+DEBUG:root:2017-07-31 01:40:00
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:215
+DEBUG:root:2017-07-31 02:17:55
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:278
+DEBUG:root:2017-07-31 02:59:38
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:180
+DEBUG:root:2017-07-31 03:38:34
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:277
+DEBUG:root:2017-07-31 04:13:55
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:283
+DEBUG:root:2017-07-31 04:54:54
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:276
+DEBUG:root:2017-07-31 05:31:01
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:195
+DEBUG:root:2017-07-31 06:11:28
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:192
+DEBUG:root:2017-07-31 06:50:22
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:149
+DEBUG:root:2017-07-31 07:24:27
+DEBUG:root:Skip Send Request!
+DEBUG:root:sleeping for close:95
+DEBUG:root:2017-07-31 08:05:52
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:4
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:75
+DEBUG:root:2017-07-31 08:38:18
+DEBUG:root:Start Send Request!
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "POST /users/auth HTTP/1.1" 200 15
+DEBUG:root:sleeping for list:4
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/review/all HTTP/1.1" 200 None
+WARNING:root:preview list==[]
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): raven.infoq.com
+DEBUG:requests.packages.urllib3.connectionpool:http://raven.infoq.com:80 "GET /official/rss/articles HTTP/1.1" 200 None
+WARNING:root:artical list==[]
+DEBUG:root:sleeping for close:225

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+        <html lang="en">
+
+        <head>
+
+            <title>Search Stock Information</title>
+
+        </head>
+
+<body>
+<fieldset>
+    <legend>查询股票历史信息：</legend>
+    <form action="../stock_his" method="GET" target="_blank">
+
+        <!--label for="Stock History Search">Search: </label-->
+        <label>Stock Code:</label>
+        <input type="text" name="stock_code" value="{{ stock_code|escape }}">
+        <label>Start Date:</label>
+        <input type="text" name="start_date" value="{{ start_date|escape }}">
+        <label>End Date:</label>
+        <input type="text" name="end_date" value="{{ end_date|escape }}">
+        <label>Period:</label>
+        <input type="text" name="period" value="{{ period|escape }}">
+
+
+        <input type="submit" value="Search"><br>
+        <label>
+            <br>
+            <ll>示例与使用说明：</ll>
+            <li>Web Api Url举例：stock_his/?stock_code=cn_300651&start_date=19741206&end_date=20170625&period=d</li>
+            <li>股票编码（stock_code）以cn_开头，后面是六位股票代码，支持多股票查询，以英文逗号分隔，如：cn_300651,cn_300652</li>
+            <li>开始日期（start_date）与结束日期（end_date）按照yyyyMMdd格式</li>
+            <li>周期（period）可选择年、月、周、日，分别为小写字母y、m、w、d</li>
+        </label>
+
+    </form>
+
+</fieldset>
+<br>
+<fieldset>
+    <legend>查看所有股票列表：</legend>
+    <form action="../stock_list" method="GET" target="_blank">
+        <input type="submit" value="Search"><br>
+    </form>
+
+</fieldset>
+</body>
+
+</html>
