@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/crawlweb.iml" filepath="$PROJECT_DIR$/.idea/crawlweb.iml" />
+      <module fileurl="file://D:\work\PycharmProjects\crawlweb\.idea\crawlweb.iml" filepath="D:\work\PycharmProjects\crawlweb\.idea\crawlweb.iml" />
     </modules>
   </component>
 </project>
