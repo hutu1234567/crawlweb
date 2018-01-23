@@ -1,0 +1,25 @@
+﻿<html>
+	<head>
+        {% load staticfiles %}
+        <script src="{% static "js/jquery-1.9.0.min.js" %}" type="text/javascript"></script>
+        <script src="{% static "js/md5.js" %}" type="text/javascript"></script>
+        <script src="{% static "js/sh1.js" %}" type="text/javascript"></script>
+        <script src="{% static "js/base64.js" %}" type="text/javascript"></script>
+
+    	<script language="JavaScript" type="text/javascript">
+        $(document).ready(function(){
+            function createGuid() {
+                return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1);
+            };
+            function ref() {
+                var guid = createGuid() + createGuid() + "-" + createGuid() + "-" + createGuid() + createGuid() + "-" + createGuid() + createGuid() + createGuid();
+                $("body ").append("<p id=guid>"+guid+"</p>");
+            };
+            ref();
+            }
+            )
+        </script>
+	</head>
+	<body>
+
+</html>

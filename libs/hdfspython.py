@@ -1,24 +1,50 @@
 ﻿from hdfs import *
 from hdfs.ext.kerberos import KerberosClient
+import os
 
 class HdfsClient:
 
     '''hdfs客户端'''
+    def __init__(self, ip='', root=None, proxy=None):
+        self.client=self.selectClient(ip)
 
-    def __init__(self, url, root=None, proxy=None):
-        self.client = KerberosClient(url, root=root, proxy=proxy)
-       
-       
-    '''打印指定目录下面的所有文件目录或文件'''
-    def printFileNames(self,hdfsPath):
-        for name in self.list(hdfsPath):
-            print name,
+    def selectClient(self, ip='',root=None, proxy=None):
+        """寻找可用hdfs链接"""
+        self.initKerberos()
+        urlMaping = {'10.10.10.23': 'http://10.10.10.23:50070', '10.10.10.21': 'http://10.10.10.21:50070',
+                     '10.10.10.22': 'http://10.10.10.22:50070'}
 
-    '''读取指定路径的文件'''
-    def readByPath(self,hdfspath):
-        file=self.client.read(hdfspath)
-        with self.client.read(hdfspath) as reader:
-            print reader.read()
+        def testip(ip,root=None, proxy=None):
+            print ip
+
+            if ip == '':
+                return process()
+            else:
+                client = KerberosClient(urlMaping[ip], root=root, proxy=proxy)
+                try:
+                    print 'test %s' % urlMaping[ip]
+                    client.list("/")
+                    return client
+                except:
+
+                    return process()
+
+        def process():
+            for key in urlMaping.keys():
+                client = KerberosClient(urlMaping[key], root=root, proxy=proxy)
+                try:
+                    client.list("/")
+                    return client
+                except:
+                    continue
+
+        return testip(ip)
+
+
+    def initKerberos(self):
+        '''初始化kerberos'''
+        os.chdir('/etc/security/keytabs')
+        os.system('kinit -kt hdfs.headless.keytab  hdfs-cluster1@IDAP.COM')
 
     def list(self,hdfspath):
         '''用于列出hdfspath所在路径下面的所有文件'''
@@ -41,9 +67,9 @@ class HdfsClient:
 
     def existFile(self, path, fileName):
         '''判断文件是否存在'''
-        allpathname = [item for item in path.split('/') if item != '/' and item != '' and item != fileName]
+        allpath = [item for item in path.split('/') if item != '/' and item != '' and item != fileName]
         increPath = '/'
-        for itemPath in allpathname:
+        for itemPath in allpath:
             increPath = increPath + itemPath + '/'
         if fileName in self.list(increPath):
             return True;
@@ -52,27 +78,17 @@ class HdfsClient:
 
     def existPath(self,path):
         '''判断文件是否存在'''
-        allpathname = [item for item in path.split('/') if item != '/' and item != '' and item.find('csv')]
+        allpath = [item for item in path.split('/') if item != '/' and item != '' and item.find('csv')]
         increPath = '/'
-        pathList=['/']
-        for i in range(len(allpathname)-1):
-
-            if i<len(allpathname)-1:
-             increPath = increPath + allpathname[i] + '/'
-             pathList.append(increPath[:len(increPath)-1])
+        for i in range(len(allpath)-1):
+            if i<len(allpath)-1:
+             increPath = increPath + allpath[i] + '/'
             else:
-             increPath = increPath + allpathname[i]
-             pathList.append(increPath[:len(increPath) - 1])
-
-        #子路径是否存在 以/wnn/1109为例,1109是否存在
-        count=0
-        for i in range(len(pathList)-1):
-            if allpathname[i] not in self.list(pathList[i]):
-             return False
-            else:
-              count+=1
-        if count==len(pathList)-1:
-            return True
+             increPath = increPath + allpath[i]
+        if allpath[-1] in self.list(increPath):
+            return True;
+        else:
+            return False
 
     def write(self,hdfsPath,filename,data,append=True):
         '''如果文件存在则追加，否则创建'''
@@ -84,19 +100,20 @@ class HdfsClient:
 
             self.client.write(hdfsPath + '/' + filename.replace(' ', ''), '\n', append=True)
         else:
-            print '\n %s 不存在，那就创建吧' %(hdfsPath)
             self.mkdirs(hdfsPath)
             self.client.write(hdfsPath + '/' + filename.replace(' ', ''), data, append=False)
             self.client.write(hdfsPath + '/' + filename.replace(' ', ''), '\n', append=True)
+        print('has done')
+
+
+
 
 
 if __name__ == '__main__':
-    testclient = HdfsClient('http://10.10.10.23:50070')
-    csvfile=open('ftgoodfile3.csv','r')
-    csvcontent=csvfile.read()
+    testclient = HdfsClient( 'http://10.10.10.23:50070' )
+    csvfile = open( 'ftgoodfile3.csv', 'r' )
+    csvcontent = csvfile.read()
     csvfile.close()
-    testclient.write('/wnm/1109/djla','ftgoodfile3.csv',csvcontent,append=True)
-    testclient.printFileNames('/wnm/1109/djla')
-    testclient.readByPath('/wnm/1109/djla/ftgoodfile3.csv')
-
-    
+    testclient.write( '/wnm/1109/djla', 'ftgoodfile3.csv', csvcontent, append=True )
+    testclient.printFileNames( '/wnm/1109/djla' )
+    testclient.readByPath( '/wnm/1109/djla/ftgoodfile3.csv' )

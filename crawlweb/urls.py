@@ -18,6 +18,9 @@ from crawlweb import view,reptail_view
 import crawlweb.stock.views as stockview
 from django.contrib import admin
 from crawlweb.books import bookview
+from crawlweb.law import law_view
+import crawlweb.settings as settings
+
 urlpatterns = [
     url( r'^hello$', view.hello ),
     url( r'^admin', admin.site.urls ),
@@ -26,4 +29,8 @@ urlpatterns = [
     url( r'^stock_list/$', stockview.stock_list ),
     url( r'^stock_search/$', stockview.stock_search ),
     url( r'^stock_his_query',reptail_view.query_stock_his),
+    url(r'^get_guid',law_view.get_guid),
+    url(r'^get_key',law_view.get_key),
+
 ]
+
